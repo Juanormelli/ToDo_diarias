@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet" href="./style.css">
+
+  <title>TO DO Diary</title>
+</head>
+
+<body>
+  <button class="new-task" type="button">+ Nova Tarefa</button>
+
+  <div class="boards">
+    <div class="board">
+      <h3>Pendentes</h3>
+      <div class="dropzone" ondragover="">
+        <div class="statusblue"></div>
+
+      </div>
+    </div>
+
+    <div class="board">
+      <h3>Em andamento</h3>
+      <div class="dropzone" ondragover="">
+        <div class="statusyellow"></div>
+
+      </div>
+    </div>
+
+    <div class="board">
+      <h3>Finalizadas</h3>
+      <div class="dropzone" ondragover="">
+        <div class="statusgreen"></div>
+
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    <button class="delete-task" type="button" ondragover="">
+      <img src="./Imgs/IMGTRASH.png" alt="Lixeira">
+    </button>
+
+  </footer>
+</body>
+
+</html>
